@@ -12,6 +12,7 @@ class Game:
             if event.type == pygame.QUIT:
                 self.running = False
             if event.type == pygame.KEYDOWN:
+                print(event)                
                 if event.key == pygame.K_DELETE:
                     self.running = False
     
